@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0adae3b76ccfbe949bce1c2bd26343da, type: 3}
+  m_Name: DungeonDB
+  m_EditorClassIdentifier: 
+  dungeon:
+  - level: 1
+    numberOfBattles: 4
+    dungeonName: The Field
+    dungeonDescription: As you start walking towards the Mountain, you see ahead
+      enormous and bizarre creatoures emerging from the forest. The Fields are now
+      overtaken by these beasts
+    battle:
+    - spriteID: 11
+      portraitSprite: {fileID: 21300000, guid: fdef3013774d71c4cbfa4ea3fdf86a72, type: 3}
+      xpEarned: 35
+      className: Blop
+      Description: As poison frogs die from battling against the warriors, blops
+        are starting to emerge from the poison ooze emanating from the corpses
+      attack: 11
+      defense: 10
+      speed: 10
+      hp: 20
+      attack1:
+        attackName: Toxic Cloud
+        attackDescription: The opponent emanates a poison cloud that cover the user's
+          surroundings
+        attackDamage: 8
+      attack2:
+        attackName: Ooze shot
+        attackDescription: The opponent shots pieces of its body to damage the user
+        attackDamage: 12
+    - spriteID: 12
+      portraitSprite: {fileID: 21300000, guid: 17e22c0879bb2464cbfa6c31b6cb7379, type: 3}
+      xpEarned: 55
+      className: Poison Frog
+      Description: A large, poisonous frog has appearead in front of you
+      attack: 11
+      defense: 10
+      speed: 13
+      hp: 24
+      attack1:
+        attackName: Lick
+        attackDescription: The opponent stretches its tongue and licks the user,
+          covering the user with toxic saliva
+        attackDamage: 9
+      attack2:
+        attackName: Toxic Slap
+        attackDescription: The opponent cover its skin with a potent poison and then
+          slaps the user
+        attackDamage: 13
+    - spriteID: 13
+      portraitSprite: {fileID: 21300000, guid: 323e1f3473d68824491343abfd5a2f42, type: 3}
+      xpEarned: 100
+      className: Giant Wasp
+      Description: A giant wasp nest has been disturbed around the user, giant wasps
+        are attacking all that comes close to their nest
+      attack: 13
+      defense: 11
+      speed: 17
+      hp: 28
+      attack1:
+        attackName: Bug Bite
+        attackDescription: The opponent bites the user with its large jaws
+        attackDamage: 10
+      attack2:
+        attackName: Horn Attack
+        attackDescription: The opponent attacks the user with its horn injecting
+          poison into the user's body
+        attackDamage: 15
+    - spriteID: 14
+      portraitSprite: {fileID: 21300000, guid: 21bf7c7cccf956f47905b734022ffd4e, type: 3}
+      xpEarned: 200
+      className: The Frog King
+      Description: The Frog King has been disturbed after all the battles that have
+        occurred in the Field, he has enter the area and is ready to attack you
+      attack: 15
+      defense: 15
+      speed: 15
+      hp: 45
+      attack1:
+        attackName: Toxic Wave
+        attackDescription: The opponent liberates a large amount of toxic water from
+          its body, and points it towards the user
+        attackDamage: 13
+      attack2:
+        attackName: Slam
+        attackDescription: The opponent slams the user with its massive body, causing
+          both blunt and poison damage to the user
+        attackDamage: 18
+  - level: 2
+    numberOfBattles: 5
+    dungeonName: The Field
+    dungeonDescription: As you emerge victorious from the battle against the Frog
+      King, you captured the attention of the forest creatures, these hungry creatures
+      are running to get to the user
+    battle:
+    - spriteID: 21
+      portraitSprite: {fileID: 21300000, guid: 0ba3684197fb5d746a5697a86606eda7, type: 3}
+      xpEarned: 160
+      className: Hound
+      Description: The forest creatures have tamed wild hounds from the forest, these
+        hounds commanded to attack the user
+      attack: 13
+      defense: 12
+      speed: 15
+      hp: 39
+      attack1:
+        attackName: Claw attack
+        attackDescription: The opponent attacks the user with its claws, causing
+          piercing and bleeding damage
+        attackDamage: 11
+      attack2:
+        attackName: Crunch
+        attackDescription: The opponent bites repetitively the user legs and arms,
+          causing a lot of bleeding in the user
+        attackDamage: 15
+    - spriteID: 22
+      portraitSprite: {fileID: 21300000, guid: d8eba03bc0981e842ab56a5e9bbc1811, type: 3}
+      xpEarned: 200
+      className: Forest Creature 1
+      Description: A Forest Creature starts attacking you from afar with it's crossbow
+      attack: 13
+      defense: 14
+      speed: 20
+      hp: 42
+      attack1:
+        attackName: Poison Arrow
+        attackDescription: The opponent covers an arrow with the ooze that covers
+          the field and shoots it agaisnt the user
+        attackDamage: 12
+      attack2:
+        attackName: Bolt Attack
+        attackDescription: 'The opponent starts shooting bolts in quick succession
+          toward the user '
+        attackDamage: 16
+    - spriteID: 33
+      portraitSprite: {fileID: 21300000, guid: 02d6f753846e3b24c892c8ef4abd4580, type: 3}
+      xpEarned: 210
+      className: Forest Creature 2
+      Description: 'As you defeat a Forest Creature, another one comes rushing against
+        you    '
+      attack: 14
+      defense: 20
+      speed: 12
+      hp: 45
+      attack1:
+        attackName: Stab
+        attackDescription: The opponent stabs the user with its spear
+        attackDamage: 12
+      attack2:
+        attackName: Spear Attack
+        attackDescription: The opponent starts stabbing the user repetitively with
+          speed and force
+        attackDamage: 16
+    - spriteID: 24
+      portraitSprite: {fileID: 21300000, guid: 3fcff51c52f9cf84fba17477f2a59e13, type: 3}
+      xpEarned: 280
+      className: Giant Horned Beetle
+      Description: The Forest God has released its mascot, a relentless Giant Horned
+        Beetle
+      attack: 20
+      defense: 30
+      speed: 15
+      hp: 65
+      attack1:
+        attackName: Tackle
+        attackDescription: The oppoent tackles the user with all its weight, throwing
+          the user away and causing blunt damage
+        attackDamage: 14
+      attack2:
+        attackName: Horn Slam
+        attackDescription: The opponent slams the user with its gigantic horn, causing
+          a large amount of damage to the user
+        attackDamage: 20
+    - spriteID: 25
+      portraitSprite: {fileID: 21300000, guid: 61aaf9c0683664940b73919f078b8d10, type: 3}
+      xpEarned: 350
+      className: The Forest God Berstuk
+      Description: The Forest God has released its mascot, a relentless Giant Horned
+        Beetle
+      attack: 27
+      defense: 25
+      speed: 19
+      hp: 80
+      attack1:
+        attackName: Divine Slam
+        attackDescription: 'The opponet slams the user with the power of the Gods '
+        attackDamage: 16
+      attack2:
+        attackName: Forest Power
+        attackDescription: 'The opponet calls the power of the Forest against you,
+          a mysterious mist encovers the user, and multiple creatures appears to
+          cause damage to the user '
+        attackDamage: 23

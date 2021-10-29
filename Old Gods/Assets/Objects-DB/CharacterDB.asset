@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1144bdfb101f3e74d9c72afce492342c, type: 3}
+  m_Name: CharacterDB
+  m_EditorClassIdentifier: 
+  character:
+  - spriteID: 1
+    spritePortrait: {fileID: 21300000, guid: f8566a516e8a2fc40ad5bff766ed3934, type: 3}
+    characterClass: Axeman
+    characterDesc: The Axeman comes from a savage tribe, they are constantly raiding
+      other tribes and are generally considered hostiles. However, his vast experience
+      and bigger body makes him superior in battle. His best attributes are his defense
+      and health, which makes him a perfect tank in battle.
+    hpStat: 24
+    AttackStat: 11
+    DefenseStat: 15
+    SpeedStat: 10
+    attack1:
+      attackName: Axe Attack
+      attackDescription: The user starts attacking with his large axe, hitting the
+        opponent multiple times with a blunt and piercing force.
+      attackDamage: 9
+    attack2:
+      attackName: Berserker
+      attackDescription: The user enters a berserker mode where his rage takes control,
+        he uses all on his reach to cause damage to the opponent.
+      attackDamage: 16
+  - spriteID: 2
+    spritePortrait: {fileID: 21300000, guid: 256db2e4e75d9ba439bd5385547f8ff2, type: 3}
+    characterClass: Hunter
+    characterDesc: 'The Hunter has lived all her life hunting animals to feed herself
+      and her tribe. She is fast and precise with her bow and effective with her
+      sword, a light warrior that will have advantage in her speed and attack.   '
+    hpStat: 22
+    AttackStat: 13
+    DefenseStat: 10
+    SpeedStat: 15
+    attack1:
+      attackName: Blade Slash
+      attackDescription: The user takes out her blade and attacks the enemy causing
+        piercing and bleeding damange.
+      attackDamage: 11
+    attack2:
+      attackName: Hunter's Sharpshoot
+      attackDescription: The user selects the best arrow to deliver the best amount
+        of damage to the oponent. It is always effective.
+      attackDamage: 14
+  - spriteID: 3
+    spritePortrait: {fileID: 21300000, guid: df19c12f46186804ca11cc1b105a25d3, type: 3}
+    characterClass: Steam Man
+    characterDesc: The Steam Man is a misterious and dangerous warrior, it is believe
+      he has come from a time travel gone wrong, and is trap in this timeline. His
+      metalic arm gives him advantage in both attacking and defending
+    hpStat: 22
+    AttackStat: 13
+    DefenseStat: 13
+    SpeedStat: 12
+    attack1:
+      attackName: Metalic Punch
+      attackDescription: The user attacks the opponent with his metallic arm with
+        a strong swing to the head
+      attackDamage: 10
+    attack2:
+      attackName: Hydraulic Grip
+      attackDescription: The user grips a part of the enemy's body with his metallic
+        arm, this start pressing with all the strength available
+      attackDamage: 15
